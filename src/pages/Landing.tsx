@@ -10,11 +10,13 @@ export default function Landing() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden bg-black">
       {/* Background Image */}
-      <img
-        src="https://picsum.photos/seed/ufo/1920/1080?blur=1"
-        alt="Background"
+      <video
+        src="/running.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-80"
-        referrerPolicy="no-referrer"
       />
 
       {/* Main Content Panel */}
